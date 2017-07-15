@@ -1,0 +1,76 @@
+.Hulk {
+    position: fixed;
+    left: 56%;
+
+    width: 120px;
+    height: 69.28px;
+    margin: 34.64px 0;
+    background-image: url('../Res/Small/IH-face.jpg');
+    background-size: auto 136.2547px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(28,158,24,0.75);
+    border-left: solid 1px #1c9e18;
+    border-right: solid 1px #1c9e18;
+}
+
+.IHTop,
+.IHBottom {
+    position: absolute;
+    z-index: 1;
+    width: 84.85px;
+    height: 84.85px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 16.57px;
+    box-shadow: 0 0 20px rgba(28,158,24,0.75);
+}
+
+/*counter transform the bg image on the caps*/
+.IHTop:after,
+.IHBottom:after {
+    content: "";
+    position: absolute;
+    width: 118.0000px;
+    height: 68.12733176437585px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-34.0637px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-34.0637px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-34.0637px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+}
+
+.IHTop {
+    top: -42.4264px;
+    border-top: solid 1.4142px #1c9e18;
+    border-right: solid 1.4142px #1c9e18;
+}
+
+.IHTop:after {
+    background-position: center top;
+}
+
+.IHBottom {
+    bottom: -42.4264px;
+    border-bottom: solid 1.4142px #1c9e18;
+    border-left: solid 1.4142px #1c9e18;
+}
+
+.IHBottom:after {
+    background-position: center bottom;
+}
+
+.Hulk:after {
+    content: "";
+    position: absolute;
+    top: 0.5774px;
+    left: 0;
+    width: 118.0000px;
+    height: 68.1273px;
+    z-index: 2;
+    background: inherit;
+}

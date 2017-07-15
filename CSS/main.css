@@ -1,3 +1,103 @@
 body {
-    background-image: url("../Resources/bg.jpg");
+    background-image: url("Res/bg.jpg");
+}
+
+a {
+    target: "_blank";
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 28%;
+    height: 4%;
+    font-size: 19px;
+    color: #bcbfc4;
+    width: 50%;
+}
+
+.left {
+    position: fixed;
+    height: 100%;
+    width: 35%;
+    bottom: 0;
+    text-align: center;
+    font-size: 19px;
+    color: #bcbfc4;
+}
+
+#bigimg {
+    position: fixed;
+    top: 4%;
+    height: 88%;
+    width: 30%;
+    left: .75%;
+
+    background-image: url("Res/Tower.jpg");
+    background-size: cover;
+    background-position: center;
+
+    border-style: solid double;
+    border-radius: 60px;
+    border-color: #3764ad;
+    box-shadow: 1px 1px 5px black;
+    /* Can change the box-shadow back to original color as border-color */
+}
+#details {
+    position: fixed;
+    text-align: center;
+
+    height: 25%;
+    width: 21%;
+    top: 70%;
+    left: 2%;
+    background-color: white;
+    display: none;
+}
+
+.center {
+    position: absolute;
+    top: 5%;
+    left: 34%;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.right {
+    position: fixed;
+    height: 100%;
+    width: 35%;
+    right: 0;
+    bottom: 0;
+}
+
+#top {
+    position: fixed;
+    height: 8%;
+    width: 34%;
+    right: .5%;
+    top: 1%;
+    font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+    color: #bcbfc4;
+
+    /*border-style: groove;*/
+}
+
+#info {
+    position: fixed;
+    height: 89%;
+    width: 32.5%;
+    top: 10%;
+    right: .5%;
+    bottom: 0;
+
+    color: #bcbfc4;
+    font-size: 172%;
+    padding: 1%;
+
+    border-style: double;
+    border-radius: 3%;
+    border-color: #3764ad;
 }
